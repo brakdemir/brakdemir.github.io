@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burak Demir</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div class="image-container">
+                <img src="img/me.jpg" alt="Resim Açıklaması">
+            </div>
+        </div>
+        <div class="right-column">
+            <div id="me">
+                <h1>Selam Ben</h1>
+                <h1>Burak Demir</h1>
+            </div>
+            <div id="buttons">
+                <button id="1" onclick="redirect('https://www.x.com/brakdemir')">X</button>
+                <button id="2" onclick="redirect('https://www.instagram.com/demir.py/')">INSTAGRAM</button>
+                <button id="3" onclick="redirect('https://www.github.com/brakdemir')">GITHUB</button>
+                <button id="4" onclick="redirect('https://www.medium.com/@dotesec')">MEDIUM</button>
+            </div>
+            <script>
+                function redirect(url) {
+                    window.open(url, '_blank');
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
